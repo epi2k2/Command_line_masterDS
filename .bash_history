@@ -613,3 +613,146 @@ git status
 echo $PS1
 cd
 cd repositorios/Command_line_masterDS/
+cd
+nano .bashrc 
+ls
+ls -a
+git config --global user.name 'David GP'
+git config --global user.email 'epi2k2@gmail.com'
+cat .gitconfig 
+ls
+mkdir repositorios
+cd repositorios/
+git clone https://github.com/epi2k2/master_kschool.git
+cd master_kschool/
+ls
+cd ..
+git clone https://github.com/epi2k2/master_kschool.git guardalo_aqui
+ls
+git init master_class_local
+ls
+cd master_class_local/
+ls
+cd ..
+ll
+cd master_class_local/
+git status
+cd ../master_kschool/
+cd -
+cd
+ls -a
+nano .bashrc 
+cd repositorios/
+ls
+cd master_class_local/
+cd
+nano .bashrc 
+clear
+cd repositorios/master_class_local/
+touch first_file
+touch second_file
+nano first_file 
+git --version
+git add first_file 
+git status 
+git add second_file 
+git status 
+git commit -m "First commit"
+git log
+nano first_file 
+git status 
+git add -u
+git status 
+git commit
+git status 
+git log
+git remote add origin https://github.com/epi2k2/local_init.git
+git log
+git remote -v
+git branch -M master
+git push -u origin master 
+cd ..
+git clone https://github.com/epi2k2/Command_line_masterDS.git
+ls
+cd Command_line_masterDS/
+ls
+cp ~/.bash_history ./
+ls
+cp ../../.bash_history ./
+ls
+ls -l
+ls -a
+git status 
+git add .bash_history 
+git status 
+git commit -m 'File .history added'
+git status
+git push 
+cd
+mkdir first_dir
+cd first_dir/
+touch text_file.txt
+chmod g-x,o-w text_file.txt 
+ls -l
+chmod g-x,o-w text_file.txt 
+ls -l
+chmod g+x,o+w text_file.txt 
+ls -l
+chmod g+x-r-w,o+w-r-x text_file.txt 
+ls -l
+chmod g-r-w,o+w-r-x text_file.txt 
+ls -l
+mkdir sub1 sub2 text_file
+ls
+cp text_file.txt ./sub1
+ls sub1
+mv sub1/text_file.txt sub2/text_file.txt.2
+ls sub2
+ls sub1
+cp -r sub1 sub3/
+ls
+cd sub3/
+ls
+cp -r sub1/ sub3/
+ls
+cd ..
+cp -r sub1/ sub3/
+ls sub3
+ls
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls sub2
+mv sub2/text_file.txt.backup ./
+ls
+rm -r sub2
+ls
+ll
+clear
+ll
+chmod 755 text_file.txt
+ll
+chmod 777 text_file.txt
+ll
+chmod 755 text_file.txt
+ll
+chmod 012
+chmod 012 text_file.txt
+ll
+clear
+cd ..
+cd repositorios/Command_line_masterDS/
+cp ~/.bash_history ./
+git status
+git add -u
+git commit -m "Quick exercise --> $(date)"
+git status 
+gl
+cd
+nano .bashrc 
+cd
+alias
+alias gl='git log'
+gl
+cd repositorios/Command_line_masterDS/
+gl
+alias gc='git commit -m'
+whereis alias
