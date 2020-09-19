@@ -588,3 +588,28 @@ cat .history
 ls -a
 cat .bash_history 
 clear
+cd repositorios/
+cd repositorios/master_class_local/
+cd ..
+ls
+cd  Command_line_masterDS/
+git log
+cp ~/.bash_history ./
+git status 
+cp -f ~/.bash_history ./
+git status 
+ls
+ls -a
+touch prueva
+mv prueva prueba
+git sta
+git status 
+git add prueba 
+git status 
+git restore --staged prueba
+git status 
+rm prueba 
+git status 
+echo $PS1
+cd
+cd repositorios/Command_line_masterDS/
